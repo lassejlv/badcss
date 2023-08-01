@@ -13,6 +13,7 @@ export default defineConfig({
       },
     ],
   ],
+  ignoreDeadLinks: true,
   title: "The Most Bad CSS framework",
   description: "",
   themeConfig: {
