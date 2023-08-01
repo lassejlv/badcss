@@ -43,3 +43,7 @@ You can view all colors [here](/docs/colors).
   This is a primary Button
 </themostbad>
 ```
+
+<themostbad component="button" variant="primary" size="md">
+  This is a primary Button
+</themostbad>

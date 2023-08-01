@@ -7,9 +7,8 @@ export default defineConfig({
     [
       "script",
       {
-        src: "https://kit.fontawesome.com/4f2b4b6b7f.js",
-        crossorigin: "anonymous",
-        // defer,
+        src: "https://unpkg.com/@badcss/core@0.1.0/lib",
+        defer: true,
       },
     ],
   ],

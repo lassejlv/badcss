@@ -1,0 +1,7 @@
+docs
+pnpm-lock.yaml
+servemon.config.js
+.gitignore
+.gitattributes
+README.md
+node_modules

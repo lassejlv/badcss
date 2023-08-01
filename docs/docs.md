@@ -3,10 +3,10 @@
 Welcome to the start of documentation. To get started, you will need to add the following script to your HTML file.
 
 ```html
-<script src="https://unpkg.com/themostbaddcssframework/index.js"></script>
+<script src="https://unpkg.com/@badcss/core@0.1.1/lib" type="module"></script>
 ```
 
-After this, you can start using the framework. The framework will automatically add the CSS to your project.
+After this, you can start using the framework. The framework will automatically add the CSS to your project. **IT'S REQUIRED TO ADD THE `type="module"` ATTRIBUTE TO THE SCRIPT TAG.**
 
 ## Using Plugins
 
@@ -25,7 +25,10 @@ The framework also provides an easy way to import things like fontawesome etc. H
       <i class="fa-brands fa-discord"></i> Login with Discord
     </themostbad>
 
-    <script src="https://unpkg.com/themostbaddcssframework/index.js"></script>
+    <script
+      src="https://unpkg.com/@badcss/core@0.1.0/lib"
+      type="module"
+    ></script>
   </body>
 </html>
 ```

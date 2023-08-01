@@ -1,17 +1,26 @@
 {
-  "name": "themostbadd-css-framework",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@badcss/core",
+  "version": "0.1.1",
+  "description": "A lightweight and customizable framework designed to simplify web development and enhance the styling capabilities of your projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "css",
+    "bad",
+    "javascript",
+    "css-framework"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lassejlv/themostbadd-css-framework.git"
+  },
+  "author": "Lasse Vestergaard",
+  "license": "MIT",
   "devDependencies": {
     "vite": "^4.4.7",
     "vitepress": "1.0.0-beta.7",
