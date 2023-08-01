@@ -3,7 +3,7 @@
 Welcome to the start of documentation. To get started, you will need to add the following script to your HTML file.
 
 ```html
-<script src="https://unpkg.com/@badcss/core@0.1.2/lib" type="module"></script>
+<script src="https://unpkg.com/@badcss/core@0.1.3/lib" type="module"></script>
 ```
 
 After this, you can start using the framework. The framework will automatically add the CSS to your project. **IT'S REQUIRED TO ADD THE `type="module"` ATTRIBUTE TO THE SCRIPT TAG.**
@@ -26,7 +26,7 @@ The framework also provides an easy way to import things like fontawesome etc. H
     </themostbad>
 
     <script
-      src="https://unpkg.com/@badcss/core@0.1.2/lib"
+      src="https://unpkg.com/@badcss/core@0.1.3/lib"
       type="module"
     ></script>
   </body>
