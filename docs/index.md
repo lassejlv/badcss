@@ -3,23 +3,19 @@
 layout: home
 
 hero:
-  name: "The Most Bad CSS framework"
-  text: "The Most Bad CSS Framework is a lightweight and customizable framework designed to simplify web development and enhance the styling capabilities of your projects."
-  tagline: My great project tagline
+  name: "Bad, but..."
+  tagline: A lightweight and customizable framework designed to simplify web development and enhance the styling capabilities of your projects.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Read the Docs
+      link: /docs
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Github
+      link: /github
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 😜 Easy to Use
+    details: The framework is lightweight and easy to use, and it is designed to be as simple as possible.
+  - title: 🔨 Plugins
+    details: Easy import plugins like Fontawesome and more. To make it easier to use.
 ---
-

@@ -1,28 +1,48 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [
+    // script
+    [
+      "script",
+      {
+        src: "https://kit.fontawesome.com/4f2b4b6b7f.js",
+        crossorigin: "anonymous",
+        // defer,
+      },
+    ],
+  ],
   title: "The Most Bad CSS framework",
-  description: "The Most Bad CSS Framework is a lightweight and customizable framework designed to simplify web development and enhance the styling capabilities of your projects.",
+  description: "",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "Documention", link: "/docs" },
+      { text: "Our Team", link: "/team" },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: "Getting Started",
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: "Installation", link: "/docs" },
+          { text: "Components", link: "/components" },
+          { text: "Colors", link: "/colors" },
+          { text: "Plugins", link: "/plugins" },
+        ],
+      },
+
+      {
+        text: "Components",
+        items: [{ text: "Button", link: "/components/button" }],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+      {
+        icon: "github",
+        link: "https://github.com/lassejlv/themostbadd-css-framework",
+      },
+    ],
+  },
+});
