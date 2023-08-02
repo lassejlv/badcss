@@ -7,15 +7,16 @@ export default defineConfig({
     [
       "script",
       {
-        src: "https://unpkg.com/@badcss/core@0.1.4/lib",
+        src: "https://unpkg.com/@badcss/core@0.1.5/lib",
         type: "module",
       },
     ],
   ],
 
   ignoreDeadLinks: true,
-  title: "The Most Bad CSS framework",
-  description: "",
+  title: "Bad CSS",
+  description:
+    "A lightweight and customizable framework designed to simplify web development and enhance the styling capabilities of your projects.",
   themeConfig: {
     search: {
       provider: "local",
@@ -49,7 +50,10 @@ export default defineConfig({
       {
         text: "Components",
         collapsed: false,
-        items: [{ text: "Button", link: "/components/button" }],
+        items: [
+          { text: "Alert", link: "/components/alert" },
+          { text: "Button", link: "/components/button" },
+        ],
       },
     ],
 

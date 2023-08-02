@@ -37,4 +37,4 @@ The framework also provides an easy way to import things like fontawesome etc. H
 </html>
 ```
 
-You can see in the body tag, we have added the following attribute: `themostbad='{ "plugins": {"fontawesome": true, } }'`. This will import fontawesome into your project. You can get a list of all the plugins [here](/docs/plugins).
+You can see in the body tag, we have added the following attribute: `themostbad='{ "plugins": {"fontawesome": true, } }'`. This will import fontawesome into your project. You can get a list of all the plugins [here](/plugins).

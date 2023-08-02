@@ -1,3 +1,7 @@
+::: warning
+Preview of component is not available yet. We are working on it.
+:::
+
 # Button
 
 Use or frameworks button styles for easy to use buttons.

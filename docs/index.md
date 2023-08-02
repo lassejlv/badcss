@@ -14,7 +14,7 @@ hero:
       link: /docs
     - theme: alt
       text: Github
-      link: /github
+      link: https://github.com/lassejlv/themostbadd-css-framework
 
 features:
   - title: 😜 Easy to Use

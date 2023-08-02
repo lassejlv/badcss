@@ -10,4 +10,4 @@ To create a component, you will need to use the following syntax:
 <themostbad component="button"> Hello World! </themostbad>
 ```
 
-Read about the `button` component [here](/docs/components/button).
+Read about the `button` component [here](/components/button).
