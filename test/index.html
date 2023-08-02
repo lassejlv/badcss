@@ -9,8 +9,15 @@
     themostbad='{ "plugins": {"fontawesome": {} } }'
     style="background: #1f1f23"
   >
-    <themostbad component="alert" variant="warning">
-      This is a success alert
+    <themostbad
+      component="alert"
+      variant="danger"
+      style="margin: 10px"
+      isCloseable="true"
+    >
+      <div class="alert-message">
+        Something went wrong. Please try again later.
+      </div>
     </themostbad>
 
     <script src="../lib/index.js" type="module"></script>
