@@ -17,8 +17,10 @@ hero:
       link: https://github.com/lassejlv/themostbadd-css-framework
 
 features:
-  - title: 😜 Easy to Use
+  - icon: 🚀
+    title: Easy to Use
     details: The framework is lightweight and easy to use, and it is designed to be as simple as possible.
-  - title: 🔨 Plugins
+  - icon: 🎨
+    title: Plugins
     details: Easy import plugins like Fontawesome and more. To make it easier to use.
 ---
