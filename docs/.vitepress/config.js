@@ -24,15 +24,19 @@ export default defineConfig({
     nav: [
       { text: "Documention", link: "/docs" },
       {
-        text: "current",
+        text: "🫶 Donate",
+        link: "https://ko-fi.com/lassejlv",
+      },
+      {
+        text: "Select Version",
         items: [
           {
-            text: "0.1.0 >",
+            text: "0.1.5 >",
             link: "/docs",
           },
         ],
       },
-      { text: "Our Team", link: "/team" },
+      { text: "Team", link: "/team" },
     ],
 
     sidebar: [
