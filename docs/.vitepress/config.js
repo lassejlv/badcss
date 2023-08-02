@@ -8,7 +8,6 @@ export default defineConfig({
       "script",
       {
         src: "https://unpkg.com/@badcss/core@0.1.4/lib",
-        defer: true,
         type: "module",
       },
     ],
