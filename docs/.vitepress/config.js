@@ -13,6 +13,7 @@ export default defineConfig({
     ],
   ],
 
+  cleanUrls: true,
   lastUpdated: true,
   ignoreDeadLinks: true,
   title: "Bad CSS",
