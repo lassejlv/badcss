@@ -13,6 +13,7 @@ export default defineConfig({
     ],
   ],
 
+  lastUpdated: true,
   ignoreDeadLinks: true,
   title: "Bad CSS",
   description:
@@ -21,6 +22,12 @@ export default defineConfig({
     search: {
       provider: "local",
     },
+
+    editLink: {
+      pattern:
+        "https://github.com/lassejlv/badcss/tree/plexicz-spotify-clone/docs/:path",
+    },
+
     nav: [
       { text: "Documention", link: "/docs" },
       {
@@ -65,6 +72,11 @@ export default defineConfig({
       {
         icon: "github",
         link: "https://github.com/lassejlv/themostbadd-css-framework",
+      },
+
+      {
+        icon: "discord",
+        link: "https://discord.gg/YBuCCsdmsf",
       },
     ],
   },
