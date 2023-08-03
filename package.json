@@ -1,10 +1,10 @@
 {
   "name": "@badcss/core",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A lightweight and customizable framework designed to simplify web development and enhance the styling capabilities of your projects.",
   "main": "index.js",
   "scripts": {
-    "publish": "npm publish",
+    "publish": "pnpm build && npm publish --access public",
     "build": "node scripts/build.js",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
