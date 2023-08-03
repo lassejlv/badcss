@@ -24,8 +24,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern:
-        "https://github.com/lassejlv/badcss/tree/plexicz-spotify-clone/docs/:path",
+      pattern: "https://github.com/lassejlv/badcss/tree/main/docs/:path",
     },
 
     nav: [
