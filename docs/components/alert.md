@@ -1,5 +1,5 @@
 ::: warning
-Preview of component is not available yet. We are working on it.
+Preview of components is not available yet. We are working on it.
 :::
 
 # Alerts

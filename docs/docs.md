@@ -1,7 +1,7 @@
 # Getting Started
 
 ::: danger
-It's not recommended to use this framework in production. This framework is still in development and is not ready for production use.
+It's not recommended to use this framework in production. This framework is still in development and is not ready for production use. Wait until v1 is released, which will be stable.
 :::
 
 Welcome to the start of documentation. To get started, you will need to add the following script to your HTML file.
@@ -27,7 +27,7 @@ The framework also provides an easy way to import things like fontawesome etc. H
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>themostbad-css-framework</title>
   </head>
-  <body themostbad='{ "plugins": {"fontawesome": true } }'>
+  <body themostbad='{ "plugins": {"fontawesome": {} } }'>
     <themostbad component="button" variant="light" size="lg">
       <i class="fa-brands fa-discord"></i> Login with Discord
     </themostbad>
