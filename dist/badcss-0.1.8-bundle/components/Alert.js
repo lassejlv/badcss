@@ -1,5 +1,5 @@
 /* 
-    @badcss/core v0.1.7 
+    @badcss/core v0.1.8 
     Copyright (c) 2022 Lasse Vestergaard 
     Licensed under the MIT license
     Github: https://github.com/lassejlv/badcss.git

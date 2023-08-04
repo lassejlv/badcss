@@ -9,15 +9,15 @@ Alerts are used to notify users about important information related to their act
 ## Basic Alert
 
 ```html
-<themostbad component="alert" variant="primary">
+<badcss component="alert" variant="primary">
   This is a primary alert—check it out!
-</themostbad>
+</badcss>
 ```
 
 ## Alert with Heading
 
 ```html
-<themostbad component="alert" variant="primary">
+<badcss component="alert" variant="primary">
   <div class="alert-title">Well done!</div>
 
   <hr />
@@ -25,7 +25,7 @@ Alerts are used to notify users about important information related to their act
   <div class="alert-message">
     You successfully read this important alert message.
   </div>
-</themostbad>
+</badcss>
 ```
 
 ## Attributes that can be used
@@ -56,12 +56,7 @@ In order to use `isCloseable` you need to enable the fontawesome plugin. You can
 ### Using all attributes
 
 ```html
-<themostbad
-  component="alert"
-  variant="primary"
-  isShadow="true"
-  isCloseable="true"
->
+<badcss component="alert" variant="primary" isShadow="true" isCloseable="true">
   <div class="alert-title">Well done!</div>
 
   <hr />
@@ -70,5 +65,5 @@ In order to use `isCloseable` you need to enable the fontawesome plugin. You can
     You successfully read this important alert message. Tip click the X to close
     the alert. Also take a look of this cool shadow.
   </div>
-</themostbad>
+</badcss>
 ```

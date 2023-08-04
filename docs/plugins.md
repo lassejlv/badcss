@@ -9,7 +9,7 @@ A plugin is just an easy way to import a module into your website. Like fontawes
 In your body tag, you can add the `themostbad` attribute. This will tell the framework that you want to use a plugin.
 
 ```html
-<body themostbad='{ "plugins": {"fontawesome": {} } }'>
+<body badcss-config='{ "plugins": {"fontawesome": {} } }'>
   <!-- Your content -->
 </body>
 ```

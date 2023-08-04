@@ -8,7 +8,7 @@ Welcome to the start of documentation. To get started, you will need to add the 
 
 ```html
 <script
-  src="https://unpkg.com/@badcss/core@0.1.7/dist/badcss-0.1.7-bundle"
+  src="https://unpkg.com/@badcss/core@0.1.8/dist/badcss-0.1.8-bundle"
   type="module"
 ></script>
 ```
@@ -28,12 +28,12 @@ The framework also provides an easy way to import things like fontawesome etc. H
     <title>themostbad-css-framework</title>
   </head>
   <body themostbad='{ "plugins": {"fontawesome": {} } }'>
-    <themostbad component="button" variant="light" size="lg">
+    <badcss component="button" variant="light" size="lg">
       <i class="fa-brands fa-discord"></i> Login with Discord
-    </themostbad>
+    </badcss>
 
     <script
-      src="https://unpkg.com/@badcss/core@0.1.7/dist/badcss-0.1.7-bundle"
+      src="https://unpkg.com/@badcss/core@0.1.8/dist/badcss-0.1.8-bundle"
       type="module"
     ></script>
   </body>
