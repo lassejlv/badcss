@@ -8,10 +8,11 @@ Use or frameworks button styles for easy to use buttons.
 
 ## Attributes that can be used
 
-| Attribute | Description                | Type     | Default   |
-| --------- | -------------------------- | -------- | --------- |
-| `variant` | The variant of the button. | `String` | `primary` |
-| `size`    | The size of the button.    | `String` | `md`      |
+| Attribute  | Description                | Type     | Default   |
+| ---------- | -------------------------- | -------- | --------- |
+| `variant`  | The variant of the button. | `String` | `primary` |
+| `size`     | The size of the button.    | `String` | `md`      |
+| `withRing` | Add a ring to the button.  | `String` | `false`   |
 
 You can of course use any other attribute that is available to the `button` element.
 
@@ -47,35 +48,3 @@ You can view all colors [here](/docs/colors).
   This is a primary Button
 </badcss>
 ```
-
-<badcss component="button" variant="primary" size="md">
-  This is a primary Button
-</badcss>
-
-<badcss component="button" variant="secondary" size="md" style="margin-left: 5px">
-  This is a secondary Button
-</badcss>
-
-<badcss component="button" variant="success" size="md" style="margin-left: 5px">
-  This is a success Button
-</badcss>
-
-<badcss component="button" variant="danger" size="md" style="margin-left: 5px">
-  This is a danger Button
-</badcss>
-
-<badcss component="button" variant="warning" size="md" style="margin-left: 5px">
-  This is a warning Button
-</badcss>
-
-<badcss component="button" variant="info" size="md" style="margin-left: 5px; margin-top: 5px">
-  This is a info Button
-</badcss>
-
-<badcss component="button" variant="dark" size="md" style="margin-left: 5px; margin-top: 5px">
-  This is a dark Button
-</badcss>
-
-<badcss component="button" variant="light" size="md" style="margin-left: 5px; margin-top: 5px">
-  This is a light Button
-</badcss>
