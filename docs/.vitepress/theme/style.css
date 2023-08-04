@@ -76,9 +76,7 @@
 }
 
 .dark {
-  --vp-custom-block-tip-border: var(--vp-c-brand);
-  --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
-  --vp-custom-block-tip-bg: #111;
+  background-color: var(--vp-c-brand-dimm) !important;
 }
 
 /**

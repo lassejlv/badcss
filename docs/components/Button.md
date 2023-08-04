@@ -43,39 +43,39 @@ You can view all colors [here](/docs/colors).
 ## Examples
 
 ```html
-<themostbad component="button" variant="primary" size="md">
+<badcss component="button" variant="primary" size="md">
   This is a primary Button
-</themostbad>
+</badcss>
 ```
 
-<themostbad component="button" variant="primary" size="md">
+<badcss component="button" variant="primary" size="md">
   This is a primary Button
-</themostbad>
+</badcss>
 
-<themostbad component="button" variant="secondary" size="md" style="margin-left: 5px">
+<badcss component="button" variant="secondary" size="md" style="margin-left: 5px">
   This is a secondary Button
-</themostbad>
+</badcss>
 
-<themostbad component="button" variant="success" size="md" style="margin-left: 5px">
+<badcss component="button" variant="success" size="md" style="margin-left: 5px">
   This is a success Button
-</themostbad>
+</badcss>
 
-<themostbad component="button" variant="danger" size="md" style="margin-left: 5px">
+<badcss component="button" variant="danger" size="md" style="margin-left: 5px">
   This is a danger Button
-</themostbad>
+</badcss>
 
-<themostbad component="button" variant="warning" size="md" style="margin-left: 5px">
+<badcss component="button" variant="warning" size="md" style="margin-left: 5px">
   This is a warning Button
-</themostbad>
+</badcss>
 
-<themostbad component="button" variant="info" size="md" style="margin-left: 5px; margin-top: 5px">
+<badcss component="button" variant="info" size="md" style="margin-left: 5px; margin-top: 5px">
   This is a info Button
-</themostbad>
+</badcss>
 
-<themostbad component="button" variant="dark" size="md" style="margin-left: 5px; margin-top: 5px">
+<badcss component="button" variant="dark" size="md" style="margin-left: 5px; margin-top: 5px">
   This is a dark Button
-</themostbad>
+</badcss>
 
-<themostbad component="button" variant="light" size="md" style="margin-left: 5px; margin-top: 5px">
+<badcss component="button" variant="light" size="md" style="margin-left: 5px; margin-top: 5px">
   This is a light Button
-</themostbad>
+</badcss>

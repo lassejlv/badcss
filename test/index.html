@@ -6,20 +6,29 @@
     <title>themostbad-css-framework</title>
   </head>
   <body
-    themostbad='{ "plugins": {"fontawesome": {} } }'
-    style="background: #1f1f23"
+    badcss-config='{ 
+    "plugins": 
+    {"fontawesome": {} },
+    
+    "theme": {
+      "colors": [{
+        "name": "purple",
+        "value": "#7734eb"
+      }]
+    }
+  }'
   >
-    <themostbad
-      component="alert"
-      variant="danger"
-      style="margin: 10px"
-      isCloseable="true"
-    >
-      <div class="alert-message">
-        Something went wrong. Please try again later.
-      </div>
-    </themostbad>
-
+    <div style="margin: 10rem">
+      <badcss
+        component="button"
+        variant="dark"
+        size="lg"
+        withRing="true"
+        style="background-color: var(--purple) !important"
+      >
+        This is a primary Button
+      </badcss>
+    </div>
     <script src="../lib/index.js" type="module"></script>
   </body>
 </html>
