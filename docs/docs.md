@@ -15,10 +15,11 @@ Welcome to the start of documentation. To get started, you will need to add the 
 
 After this, you can start using the framework. The framework will automatically add the CSS to your project. **IT'S REQUIRED TO ADD THE `type="module"` ATTRIBUTE TO THE SCRIPT TAG.**
 
-## Using Plugins
+## Start template
 
-The framework also provides an easy way to import things like fontawesome etc. Here is an example of how to import fontawesome.
+Here is a start template for you to use. You can copy and paste it into your HTML file.
 
+````html
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -27,17 +28,15 @@ The framework also provides an easy way to import things like fontawesome etc. H
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>themostbad-css-framework</title>
   </head>
-  <body themostbad='{ "plugins": {"fontawesome": {} } }'>
-    <badcss component="button" variant="light" size="lg">
+  <body>
+    <badcss component="button" variant="dark" size="lg">
       <i class="fa-brands fa-discord"></i> Login with Discord
     </badcss>
 
     <script
-      src="https://unpkg.com/@badcss/core@0.1.8/dist/badcss-0.1.8-bundle"
+      src="https://unpkg.com/@badcss/core@0.1.9/dist/badcss-0.1.9-bundle"
       type="module"
     ></script>
   </body>
 </html>
-```
-
-You can see in the body tag, we have added the following attribute: `themostbad='{ "plugins": {"fontawesome": true, } }'`. This will import fontawesome into your project. You can get a list of all the plugins [here](/plugins).
+````
