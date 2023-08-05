@@ -38,7 +38,7 @@ export default defineConfig({
         text: "Select Version",
         items: [
           {
-            text: "0.1.7 <",
+            text: "0.1.9 <",
             link: "/docs",
           },
         ],
@@ -54,7 +54,16 @@ export default defineConfig({
           { text: "Installation", link: "/docs" },
           { text: "Components", link: "/components" },
           { text: "Colors", link: "/colors" },
-          { text: "Plugins", link: "/plugins" },
+        ],
+      },
+
+      {
+        text: "Config",
+        collapsed: false,
+        items: [
+          { text: "General", link: "/config/general" },
+          { text: "Theme", link: "/config/theme" },
+          { text: "Plugins", link: "/config/plugins" },
         ],
       },
 

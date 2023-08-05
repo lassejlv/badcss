@@ -19,8 +19,11 @@ hero:
 features:
   - icon: 🚀
     title: Easy to Use
-    details: The framework is lightweight and easy to use, and it is designed to be as simple as possible.
+    details: One of the most easy to use frameworks out there. With easy to use components.
   - icon: 🎨
+    title: Customizable
+    details: The framework is designed to be customizable, so you can customize it to your needs.
+  - icon: ⚡️
     title: Plugins
     details: Easy import plugins like Fontawesome and more. To make it easier to use.
 ---
