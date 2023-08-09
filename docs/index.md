@@ -5,15 +5,15 @@ layout: home
 hero:
   name: "Bad, but..."
   tagline: A lightweight and customizable framework designed to simplify web development and enhance the styling capabilities of your projects.
-  image:
-    src: /logo.png
-    alt: Bad, but...
+  # image:
+  #   src: /logo.png
+  #   alt: Bad, but...
   actions:
     - theme: brand
       text: Read the Docs
       link: /docs
     - theme: alt
-      text: Github
+      text: View on Github
       link: https://github.com/lassejlv/themostbadd-css-framework
 
 features:

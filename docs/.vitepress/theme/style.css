@@ -8,11 +8,11 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-brand: #4dca6e;
-  --vp-c-brand-light: #4dca6e;
+  --vp-c-brand: #10b981;
+  --vp-c-brand-light: #34d399;
   --vp-c-brand-lighter: #9499ff;
   --vp-c-brand-lightest: #bcc0ff;
-  --vp-c-brand-dark: #4dca6e;
+  --vp-c-brand-dark: #059669;
   --vp-c-brand-darker: #9499ff;
   --vp-c-brand-dimm: #111;
 }
@@ -31,6 +31,7 @@
   --vp-button-brand-active-border: var(--vp-c-brand-light);
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: #111;
+  --vp-c-bg: #111;
 }
 
 /**
@@ -75,14 +76,42 @@
   --vp-custom-block-tip-bg: #111;
 }
 
-.dark {
-  background-color: var(--vp-c-brand-dimm) !important;
-}
-
 /**
  * Component: Algolia
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand) !important;
+}
+
+body .dark {
+  background: #111 !important;
+}
+
+.VPHero {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 60vh !important;
+}
+
+.VPHero h1 {
+  text-align: center !important;
+}
+
+.VPHero p {
+  text-align: center !important;
+}
+
+.VPHero .actions {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: black;
+}
+
+.appearance {
+  display: none !important;
 }
