@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "publish": "pnpm build && npm publish --access public",
+    "new:component": "node scripts/createComponent.js",
     "build": "node scripts/build.js",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -24,6 +25,7 @@
   "author": "Lasse Vestergaard",
   "license": "MIT",
   "devDependencies": {
+    "prompt-sync": "^4.2.0",
     "vite": "^4.4.7",
     "vitepress": "1.0.0-beta.7",
     "vue": "^3.3.4"
