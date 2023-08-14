@@ -8,7 +8,7 @@ Welcome to the start of documentation. To get started, you will need to add the 
 
 ```html
 <script
-  src="https://unpkg.com/@badcss/core@0.1.8/dist/badcss-0.1.8-bundle"
+  src="https://unpkg.com/@badcss/core@00.1.9-1/dist/badcss-0.1.9-1-bundle"
   type="module"
 ></script>
 ```
@@ -34,7 +34,7 @@ Here is a start template for you to use. You can copy and paste it into your HTM
     </badcss>
 
     <script
-      src="https://unpkg.com/@badcss/core@0.1.9/dist/badcss-0.1.9-bundle"
+      src="https://unpkg.com/@badcss/core@0.1.9-1/dist/badcss-0.1.9-1-bundle"
       type="module"
     ></script>
   </body>
