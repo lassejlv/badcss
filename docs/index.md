@@ -26,4 +26,7 @@ features:
   - icon: ⚡️
     title: Plugins
     details: Easy import plugins like Fontawesome and more. To make it easier to use.
+ - title: Error Handling
+    details: Bad, but... has a built in error handling system, so you can see what you did wrong.
+    icon: 🚨
 ---
