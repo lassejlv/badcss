@@ -54,6 +54,7 @@ export default defineConfig({
           { text: "Installation", link: "/docs" },
           { text: "Components", link: "/components" },
           { text: "Colors", link: "/colors" },
+          { text: "Variants", link: "/variants" },
         ],
       },
 
@@ -73,6 +74,7 @@ export default defineConfig({
         items: [
           { text: "Alert", link: "/components/alert" },
           { text: "Button", link: "/components/button" },
+          { text: "Spinner", link: "/components/spinner" },
         ],
       },
     ],

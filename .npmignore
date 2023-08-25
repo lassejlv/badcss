@@ -5,3 +5,4 @@ servemon.config.js
 .gitattributes
 README.md
 node_modules
+yarn.lock

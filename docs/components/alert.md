@@ -32,7 +32,7 @@ Alerts are used to notify users about important information related to their act
 
 | Attribute     | Description                       | Type     | Default   |
 | ------------- | --------------------------------- | -------- | --------- |
-| `variant`     | The variant of the button.        | `String` | `primary` |
+| `variant`     | The variant of the alert.         | `String` | `primary` |
 | `isShadow`    | Get a clean shadow for your alert | `String` | `false`   |
 | `isCloseable` | Get a close button for your alert | `String` | `false`   |
 
@@ -41,17 +41,7 @@ In order to use `isCloseable` you need to enable the fontawesome plugin. You can
 
 ## Available Variants
 
-| Variant     | Description                          | Type     |
-| ----------- | ------------------------------------ | -------- |
-| `primary`   | The primary variant of the button.   | `String` |
-| `secondary` | The secondary variant of the button. | `String` |
-| `success`   | The success variant of the button.   | `String` |
-| `danger`    | The danger variant of the button.    | `String` |
-| `warning`   | The warning variant of the button.   | `String` |
-| `info`      | The info variant of the button.      | `String` |
-| `light`     | The light variant of the button.     | `String` |
-| `dark`      | The dark variant of the button.      | `String` |
-| `light`     | The link variant of the button.      | `String` |
+View all variants [here](/variants).
 
 ### Using all attributes
 

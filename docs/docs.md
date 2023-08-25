@@ -1,5 +1,9 @@
 # Getting Started
 
+::: tip
+We are releasing version 1.0.0 at September 1st 2023. So stay tuned!
+:::
+
 ::: danger
 It's not recommended to use this framework in production. This framework is still in development and is not ready for production use. Wait until v1 is released, which will be stable.
 :::

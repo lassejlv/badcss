@@ -18,18 +18,7 @@ You can of course use any other attribute that is available to the `button` elem
 
 ## Variants
 
-| Variant     | Description                          | Type     |
-| ----------- | ------------------------------------ | -------- |
-| `primary`   | The primary variant of the button.   | `String` |
-| `secondary` | The secondary variant of the button. | `String` |
-| `success`   | The success variant of the button.   | `String` |
-| `danger`    | The danger variant of the button.    | `String` |
-| `warning`   | The warning variant of the button.   | `String` |
-| `info`      | The info variant of the button.      | `String` |
-| `light`     | The light variant of the button.     | `String` |
-| `dark`      | The dark variant of the button.      | `String` |
-| `light`     | The link variant of the button.      | `String` |
-
+View all variants [here](/variants).
 You can view all colors [here](/docs/colors).
 
 ## Sizes
