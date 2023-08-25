@@ -12,7 +12,7 @@ Welcome to the start of documentation. To get started, you will need to add the 
 
 ```html
 <script
-  src="https://unpkg.com/@badcss/core@0.1.9-2/dist/badcss-0.1.9-2-bundle"
+  src="https://unpkg.com/@badcss/core@0.1.9-3/dist/badcss-0.1.9-3-bundle"
   type="module"
 ></script>
 ```
@@ -37,7 +37,7 @@ Here is a start template for you to use. You can copy and paste it into your HTM
     </badcss>
 
     <script
-      src="https://unpkg.com/@badcss/core@0.1.9-2/dist/badcss-0.1.9-1-bundle"
+      src="https://unpkg.com/@badcss/core@0.1.9-3/dist/badcss-0.1.9-3-bundle"
       type="module"
     ></script>
   </body>
