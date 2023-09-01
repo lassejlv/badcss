@@ -6,6 +6,7 @@
   "scripts": {
     "publish": "pnpm build && npm publish --access public",
     "new:component": "node scripts/createComponent.js",
+    "dev": "servemon dev",
     "build": "node scripts/build.js",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
