@@ -38,7 +38,7 @@ export default defineConfig({
         text: "Select Version",
         items: [
           {
-            text: "0.1.9 <",
+            text: "1.0.0-beta.1 (latest)",
             link: "/docs",
           },
         ],

@@ -1,18 +1,14 @@
 # Getting Started
 
 ::: tip
-We are releasing version 1.0.0 at September 1st 2023. So stay tuned!
-:::
-
-::: danger
-It's not recommended to use this framework in production. This framework is still in development and is not ready for production use. Wait until v1 is released, which will be stable.
+v1.0.0-beta.1 is now available! Framwork is now stable and ready to use. But be aware that there might be some bugs. If you find any bugs, please report them in the [issues](https://github.com/lassejlv/badcss/issues) page.
 :::
 
 Welcome to the start of documentation. To get started, you will need to add the following script to your HTML file.
 
 ```html
 <script
-  src="https://unpkg.com/@badcss/core@0.1.9-3/dist/badcss-0.1.9-3-bundle"
+  src="https://unpkg.com/@badcss/core@1.0.0-beta.1/dist/badcss-1.0.0-beta.1-bundle"
   type="module"
 ></script>
 ```
@@ -37,7 +33,7 @@ Here is a start template for you to use. You can copy and paste it into your HTM
     </badcss>
 
     <script
-      src="https://unpkg.com/@badcss/core@0.1.9-3/dist/badcss-0.1.9-3-bundle"
+      src="https://unpkg.com/@badcss/core@1.0.0-beta.1/dist/badcss-1.0.0-beta.1-bundle"
       type="module"
     ></script>
   </body>
